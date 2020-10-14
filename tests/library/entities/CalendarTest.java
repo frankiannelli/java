@@ -17,6 +17,6 @@ class CalendarTest {
         calendar.setDate(sdf);
         Date dueDate = new SimpleDateFormat("yyyy-MM-dd").parse("2008-01-01");
         long daysOverDue = calendar.getDaysDifference(dueDate);
-        assertEquals(daysOverDue, 1);
+        assertEquals(1, daysOverDue);
     }
 }
