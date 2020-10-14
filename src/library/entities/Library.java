@@ -1,15 +1,11 @@
 package library.entities;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import library.entities.helpers.IBookHelper;
 import library.entities.helpers.ILoanHelper;
 import library.entities.helpers.IPatronHelper;
+
+import java.io.Serializable;
+import java.util.*;
 
 @SuppressWarnings("serial")
 public class Library implements Serializable, ILibrary {
@@ -211,9 +207,6 @@ public class Library implements Serializable, ILibrary {
 	public void dischargeLoan(ILoan loan, boolean isDamaged) {
 		IPatron patron = loan.getPatron();
 		IBook book = loan.getBook();
-
-		double overDueFine = calculateOverDueFine(loan);
-		patron.incurFine(overDueFine);
 
 		Integer bookId = book.getId();
 		if (isDamaged) {
