@@ -1,3 +1,7 @@
+# Readme
+
+All test cases can be found in the test directory
+
 # UAT Test cases
 
 
