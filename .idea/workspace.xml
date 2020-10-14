@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2209f6d4-761a-40fa-85cc-5ef0743f9583" name="Default Changelist" comment="" />
+    <list default="true" id="2209f6d4-761a-40fa-85cc-5ef0743f9583" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BRLS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BRLS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/entities/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/entities/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/library/entities/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/library/entities/CalendarTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +15,50 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1icpkFSNePlvAnhypqx73xWmsKO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="library.entities" />
+      <recent name="library.returnbook" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LibraryTest.dischargeLoanTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="library.Main" />
       <module name="BRLS" />
@@ -32,8 +72,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalendarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BRLS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="library.entities" />
+      <option name="MAIN_CLASS_NAME" value="library.entities.CalendarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarTest.getDaysDifference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BRLS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="library.entities" />
+      <option name="MAIN_CLASS_NAME" value="library.entities.CalendarTest" />
+      <option name="METHOD_NAME" value="getDaysDifference" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalendarTest.getDaysDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BRLS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="library.entities" />
+      <option name="MAIN_CLASS_NAME" value="library.entities.CalendarTest" />
+      <option name="METHOD_NAME" value="getDaysDifferenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.dischargeLoanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BRLS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="library.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="library.entities" />
+      <option name="MAIN_CLASS_NAME" value="library.entities.LibraryTest" />
+      <option name="METHOD_NAME" value="dischargeLoanTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.dischargeLoanTest" />
+        <item itemvalue="JUnit.CalendarTest.getDaysDifferenceTest" />
+        <item itemvalue="JUnit.CalendarTest.getDaysDifference" />
+        <item itemvalue="JUnit.CalendarTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -50,5 +157,59 @@
       <updated>1602216875403</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="699" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602567290586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="699" y="350" key="#com.intellij.fileTypes.FileTypeChooser/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602567290586" />
+    <state width="1878" height="353" key="GridCell.Tab.0.bottom" timestamp="1602634996846">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="353" key="GridCell.Tab.0.bottom/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634996846" />
+    <state width="1878" height="353" key="GridCell.Tab.0.center" timestamp="1602634996844">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="353" key="GridCell.Tab.0.center/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634996844" />
+    <state width="1878" height="353" key="GridCell.Tab.0.left" timestamp="1602634996843">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="353" key="GridCell.Tab.0.left/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634996843" />
+    <state width="1878" height="353" key="GridCell.Tab.0.right" timestamp="1602634996845">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="353" key="GridCell.Tab.0.right/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634996845" />
+    <state width="1878" height="296" key="GridCell.Tab.1.bottom" timestamp="1602634960368">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.1.bottom/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634960368" />
+    <state width="1878" height="296" key="GridCell.Tab.1.center" timestamp="1602634960366">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.1.center/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634960366" />
+    <state width="1878" height="296" key="GridCell.Tab.1.left" timestamp="1602634960364">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.1.left/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634960364" />
+    <state width="1878" height="296" key="GridCell.Tab.1.right" timestamp="1602634960367">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="296" key="GridCell.Tab.1.right/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602634960367" />
+    <state x="448" y="121" key="SettingsEditor" timestamp="1602559842209">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602559842209" />
+    <state x="686" y="441" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602560009021">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="686" y="441" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602560009021" />
+    <state x="732" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602629106459">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602629106459" />
+    <state x="640" y="297" width="639" height="486" key="find.popup" timestamp="1602631484256">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="297" width="639" height="486" key="find.popup/138.1080.1680.1050/0.0.1920.1080@0.0.1920.1080" timestamp="1602631484256" />
   </component>
 </project>
